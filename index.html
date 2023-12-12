@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Painter App</title>
+</head>
+<body>
+    <canvas id="paintCanvas" width="800" height="600"></canvas>
+    <div id="colorPalette">
+        <span class="color" style="background-color: red;"></span>
+        <span class="color" style="background-color: blue;"></span>
+        <!-- Add more color options -->
+    </div>
+    <input type="range" id="brushSize" min="1" max="10" value="5">
+    <button id="clearButton">Effacer</button>
+    <button id="rectangleMode">Mode Rectangle</button>
+    <button id="saveButton">Enregistrer</button>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
